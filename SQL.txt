@@ -1,0 +1,11 @@
+CREATE table books (
+	book_id INT PRIMARY KEY,
+  	title text,
+  	author text,
+  	genre text(1),
+  	published_year INT,
+  	isbn text,
+  	price INT,
+  	rating INT,
+  	stock_count INT
+)
