@@ -2,7 +2,7 @@ CREATE table books (
 	book_id INT PRIMARY KEY,
   	title text,
   	author text,
-  	genre text(1),
+  	genre text,
   	published_year INT,
   	isbn INT,
   	price FLOAT,
