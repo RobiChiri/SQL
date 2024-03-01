@@ -4,8 +4,8 @@ CREATE table books (
   	author text,
   	genre text(1),
   	published_year INT,
-  	isbn text,
-  	price INT,
-  	rating INT,
+  	isbn INT,
+  	price FLOAT,
+  	rating FLOAT,
   	stock_count INT
 )
